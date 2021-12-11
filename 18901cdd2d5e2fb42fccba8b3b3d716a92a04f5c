@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfcadf94_afb46550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-12-11T02:31:45Z",
+      "side": 1,
+      "message": "845 devices on PE do not use the reverse engineered \"OSS\" capabilityconfigstore from LineageOS. Therefore, we all ship the prebuilt libplatformconfig.so from stock or from CAF. The reason is that prebuilt capabilityconfigstore works fine, and Lineage\u0027s reverse engineered one is not the same as qcom\u0027s implementation.\n\nPlease do not follow LineageOS blindly.",
+      "revId": "18901cdd2d5e2fb42fccba8b3b3d716a92a04f5c",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
