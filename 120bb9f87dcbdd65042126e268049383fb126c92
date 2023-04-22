@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d8a6d24_899c0ac2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000728
+      },
+      "writtenOn": "2023-04-22T12:20:07Z",
+      "side": 1,
+      "message": "libplatformconfig can be built from source.\n(Tested on OnePlus 6T without using proprietary libplatformconfig)",
+      "revId": "120bb9f87dcbdd65042126e268049383fb126c92",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
