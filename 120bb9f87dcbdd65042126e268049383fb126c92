@@ -16,6 +16,23 @@
       "message": "libplatformconfig can be built from source.\n(Tested on OnePlus 6T without using proprietary libplatformconfig)",
       "revId": "120bb9f87dcbdd65042126e268049383fb126c92",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1a87774_16ffb522",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2023-04-22T12:23:50Z",
+      "side": 1,
+      "message": "The \"oss libplatformconfig\" from lineage is nothing like the proprietary libplatfromconfig from qcom, and you can compare the source if you have access to BSP. I decided to keep using the proprietary one because the blobs work just fine for newer media HAL. Why switch to a reverse engineered version when the stock blob does not cause any issues?",
+      "revId": "120bb9f87dcbdd65042126e268049383fb126c92",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
